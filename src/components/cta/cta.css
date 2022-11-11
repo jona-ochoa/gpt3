@@ -1,0 +1,80 @@
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #fff;
+}
+
+.cta-container p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.cta-container h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.cta_btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.cta_btn button {
+    min-width: 189.14px;
+    justify-content: center;
+    align-items: center;
+    height: 59.4px;
+    color: white;
+    font-family: var(--font-family);
+    background: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.cta_btn button:hover {
+    background: #FF4820;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 650px) {
+    .cta {
+        flex-direction: column;
+    }
+    .cta_btn {
+        font-size: 14px;
+        line-height: 28px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cta {
+        margin: 4rem 2rem;
+    }
+}
